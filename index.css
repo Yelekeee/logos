@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://images5.alphacoders.com/347/347006.jpg);
+    object-fit: cover;
+    display: flex;
+}
+.logo1{
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 20%;
+    height: 200px;
+    width: 200px;
+    background-color: yellow; 
+    transform: translate(-50%, -50%);
+    border-color: black;
+    border-radius: 15px;
+}
+
+.logo1:before{
+    position: absolute;
+    background-color: black;
+    content:"";
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+}
+.logo1:after{
+    position: absolute;
+    background-color: white;
+    content:"";
+    top: 50%;   
+    height: 100px;
+    width: 100px;
+}
+
+.logo2{
+    border-radius: 15px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, 50%);
+    background-color: white;
+    left: 50%;
+    top: 60%;
+}
+
+.logo2:after{
+    position: absolute ;
+    width: 50px;
+    height: 140px;
+    content:"";
+    top: 13%; 
+    left: 16%;  
+     background: rgb(17,163,209);;
+    border-radius: 20px;
+}
+
+.logo2:before{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    content: "";
+    background: rgb(17,163,209);;
+    top: 13%;
+    right: 16%;
+    border-radius: 20px;
+}
+
+.logo3{
+    position: absolute;
+    background-color: black ;
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+}
+
+.logo3:after{
+    position: absolute;
+    background-color: yellow;
+    content:"";
+    width: 200px;
+    height: 40px;
+    left: 170%;
+    top: 30%;
+    transform: translate(-170%, -50%);
+   
+    
+}
+
+.logo3:before{
+    position: absolute;
+    background-color: yellow;
+    content:"";
+    width: 200px;
+    height: 40px;
+    left: 170%;
+    top: 70%;
+    transform: translate(-170%, -50%);
+   
+    
+}
+
+.main{
+    overflow: hidden;
+    display: inline;
+}
